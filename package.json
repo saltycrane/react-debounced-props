@@ -1,0 +1,31 @@
+{
+  "name": "react-debounced-props",
+  "version": "0.1.0",
+  "description": "higher order component for debouncing React component updates for props",
+  "author": "saltycrane",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltycrane/react-debounced-props.git"
+  },
+  "keywords": [
+    "debounce",
+    "react"
+  ],
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": ">=15.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-plugin-transform-react-jsx": "6.24.1",
+    "babel-preset-env": "1.6.1"
+  }
+}
