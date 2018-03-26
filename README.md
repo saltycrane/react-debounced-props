@@ -14,7 +14,7 @@ npm install react-debounced-props
 
 Basic usage:
 
-```
+```js
 import { debounce } from "lodash";
 import withDebouncedProps from "react-debounced-props";
 
@@ -25,7 +25,7 @@ const MyDebouncedComponent = withDebouncedProps(
 
 Example usage with `react-apollo`'s `graphql` HOC:
 
-```
+```js
 import { debounce } from "lodash";
 import { compose, graphql } from "react-apollo";
 
