@@ -43,7 +43,7 @@ const withDebouncedProps = (propNames, debounce) => BaseComponent =>
     }
 
     componentWillUnmount() {
-      this.debouncedUpdate.cancel();
+      this.debouncedUpdate.cancel && this.debouncedUpdate.cancel();
     }
 
     debouncedUpdate = debounce(nextProps => {
